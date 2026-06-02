@@ -14,19 +14,15 @@ An advanced, data-driven framework and interactive platform designed to assess, 
 
 ### 1. Safety Today (Dashboard)
 Displays the current air safety status, computed risk classification, and advanced medical advisories tailored to the user's location.
-![Safety Today Dashboard](screenshots/dashboard_screenshot.png)
 
 ### 2. Risk Engine & Personal Inputs
 Enables users to input dynamic personal parameters (exposure duration, proximity to traffic, mask usage, pre-existing health issues) to calculate their Cumulative Vulnerability Score (CVS) and adjust risk levels.
-![Risk Engine](screenshots/risk_engine_screenshot.png)
 
 ### 3. Interactive Risk Map
 Visualize relative risk indicators across multiple cities in India to make informed travel or relocation decisions.
-![Risk Map](screenshots/risk_map_screenshot.png)
 
 ### 4. Historical Pollution Trends
 Deep-dive analysis of historical AQI trends over time to identify seasonal spikes and baseline exposure.
-![Pollution Trends](screenshots/trends_screenshot.png)
 
 ---
 

@@ -10,7 +10,7 @@ An advanced, data-driven framework and interactive platform designed to assess, 
 
 ---
 
-## 📸 Interface Preview
+## Interface Preview
 
 ### 1. Safety Today (Dashboard)
 Displays the current air safety status, computed risk classification, and advanced medical advisories tailored to the user's location.

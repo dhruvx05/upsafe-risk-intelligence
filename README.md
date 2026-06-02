@@ -39,6 +39,49 @@ An advanced, data-driven framework and interactive platform designed to assess, 
 
 ---
 
+## 📋 Core Modules & Features (What the App Does)
+
+UPSAFE is divided into six functional workspace modules, accessible via the interactive sidebar:
+
+### 1. Safety Today (Dashboard)
+* **What it does:** Serves as the primary real-time intelligence hub for the selected city.
+* **Details:**
+  - Displays a high-contrast Safety Status Banner highlighting the user's current personalized risk category (e.g., *Extreme Risk - Code E*).
+  - Outlines customized **Medical Protocols** covering mandatory actions (like respirator specifications) and clinical monitoring tasks.
+  - Summarizes the city's key environmental indicators alongside computed **Financial Exposures** (representing the projected cost impact of pollution on health).
+
+### 2. Risk Engine (Quantification & Simulation)
+* **What it does:** The main calculation sandbox where users configure their personal vulnerability profiles.
+* **Details:**
+  - **Mathematical Pipeline:** Shows the step-by-step math linking inputs to outcomes (AQI $\rightarrow$ Vulnerability $\rightarrow$ Likelihood $\rightarrow$ Impact $\rightarrow$ Risk Tier $\rightarrow$ Loss Projection).
+  - **Interactive 5x5 Risk Matrix:** Highlights the exact coordinate intersection of environmental impact and adjusted likelihood.
+  - **Vulnerability Simulation Sliders:** Lets users fine-tune six behavior variables (Proximity to traffic, Exposure Duration, Mask Usage Grade, Health Baseline, Safety Awareness, and Access to Clean Air Infrastructure) to instantly recalculate risk levels.
+
+### 3. Risk Map (Geospatial Distribution)
+* **What it does:** Visualizes risk metrics across India geographically.
+* **Details:**
+  - Embeds a multi-layered Leaflet geospatial map containing glowing markers for major cities.
+  - Colors city markers dynamically based on the local air-quality threat tier, allowing users to assess regional hazards at a glance.
+
+### 4. Pollution Trends (Historical Analytics)
+* **What it does:** Analyzes environmental patterns over time.
+* **Details:**
+  - Maps historical AQI data using interactive graphs to show seasonal spikes, peak periods, and safety thresholds.
+  - Identifies recurrent pollution cycles to aid long-term safety planning.
+
+### 5. City Comparison (Differential Benchmarking)
+* **What it does:** Compares air quality risk profiles between different cities.
+* **Details:**
+  - Provides a side-by-side comparative dashboard displaying maximum AQI, average AQI, and the calculated proportion of harmful days ($P_{\text{harmful}}$).
+  - Helps users evaluate the baseline environmental safety difference before travel or relocation.
+
+### 6. Scientific Logic (Documentation)
+* **What it does:** Outlines the scientific frameworks, papers, and mathematical formulas backing the application.
+* **Details:**
+  - Explains definitions, equations, and guidelines conforming to safety standards like **NIST SP 800-30** and **ISO 31000**.
+
+---
+
 ## 🔬 Scientific Methodology & Formulas
 
 ### 1. Cumulative Vulnerability Score (CVS)
